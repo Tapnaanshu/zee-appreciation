@@ -47,3 +47,14 @@ body, html {
     margin: 0;
     word-wrap: break-word; /* Ensure text wraps nicely */
 }
+
+/* Responsive design for mobile */
+@media (max-width: 600px) {
+    .content h1 {
+        font-size: 2em; /* Smaller font size for mobile */
+    }
+
+    .content p {
+        font-size: 1em; /* Smaller font size for mobile */
+    }
+}
